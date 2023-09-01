@@ -176,3 +176,17 @@ a {
     padding: 8px 30px;
     border: 1px solid white;
 }
+
+/*Section 5 Footer*/
+
+.section5{
+    background-color: #1f2937;
+    padding: 20px;
+    
+}
+
+.footer-section {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
