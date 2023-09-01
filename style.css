@@ -151,3 +151,28 @@ a {
     font-style: italic;
     color: #1f2937;
 }
+
+/*Section 4*/
+
+.section4 {
+    padding: 100px;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.button-cta {
+
+    margin-top: 10px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: white;
+    padding: 8px 30px;
+    border: 1px solid white;
+}
