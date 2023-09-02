@@ -3,103 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Rustddicted</title>
     <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 <body>
+        
+        <div class="section1">
 
-    <div class="section1">
+            <div class="container">
 
-        <div class="container">
-
-            <div class="header">
-                <h2 class="logo">Header Logo</h2>
-
-                <ul class="nav">
-                    <li><a href="#">header link one</a></li>
-                    <li><a href="#">header link two</a></li>
-                    <li><a href="#">header link three</a></li>
-                </ul>
-            </div>
-            <div class="hero">
-
-                <div class="hb-left">
-                    <h2 class="hero-Main-text">This website is awesome</h2>
-                    <p class="hero-Secondary-text">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-                    <button class="button-hero">Sign Up</button>
-
-                </div>
-                <div class="hb-right hero-image">
+                <div class="header">
                     
+                    <img src="./images/Rust_Logo.png" class="logo">
+
+                    <ul class="nav">
+                        <li><a href="https://rust.facepunch.com/" target="_blank" rel="noopener noreferrer">Facepunch</a></li>
+                        <li><a href="https://rust.facepunch.com/news/" target="_blank" rel="noopener noreferrer">News</a></li>
+                        <li><a href="https://rust.fandom.com/wiki/Rust_Wiki" target="_blank" rel="noopener noreferrer">Rust Wiki</a></li>
+                    </ul>
                 </div>
+                <div class="hero">
+
+                    <div class="hb">
+                        <h2 class="hero-Main-text">The Survival Game</h2>
+                        <p class="hero-Secondary-text">The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night. <br>Literally!</p>
+                        <button class="button-hero"><a href="https://store.steampowered.com/agecheck/app/252490/" target="_blank" rel="noopener noreferrer">Join</a></button>
+
+                    </div>
+                        
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
-    </div>
+        <div class="section-video">
 
-    <div class="section2">
+            <div class="container">
 
-        <div class="container">
-
-            <h2 class="s2-header">Some random information.</h2>
-            <div class="box-container">
-                <div class="box">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="box">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="box">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="box">
-                    <div class="square"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
+            <video autoplay loop muted plays-inline class="bkvideo">
     
-    <div class="section3">
-
-        <div class="container">
-            <div class="text-container">
-                <p class="quote"> This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks just fine.</p>
-                <p class="author">-Thor, God of Thunder</p>
-            </div>
-            
+                <source src="./images/rust-trailer.mp4" type="video/mp4">
+    
+            </video>
         </div>
+        </div>    
 
-    </div>
+        <div class="section2">
 
-    <div class="section4">
+            <div class="container">
 
-        <div class="container">
-            <div class="cta-container">
-                <div class="call-to-action">
-                    <h2 class="cta-header">Call to action! It's time!</h2>
-                    <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+                <h2 class="s2-header">The Rust life cycle</h2>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="square" id="image1"><img src="./images/rock.png" alt="A rock"></div>
+                        <p>A rock</p>
+                    </div>
+                    <div class="box">
+                        <div class="square" id="image2"><img src="./images/crossbow.png" alt="A crossbow"></div>
+                        <p>A crossbow</p>
+                    </div>
+                    <div class="box">
+                        <div class="square" id="image3"><img src="./images/DB.png" alt="A double barrel"></div>
+                        <p>A Double Barrel</p>
+                    </div>
+                    <div class="box">
+                        <div class="square" id="image4"><img src="./images/ak.png" alt="An AK"></div>
+                        <p>An AK</p>
+                    </div>
+                    <div class="box">
+                        <div class="square" id="image5"><img src="./images/rock.png" alt="A rock again ye!"></div>
+                        <p>A rock again</p>
+                    </div>
                 </div>
-                <button class="button-cta">Sign Up</button>
             </div>
+
+        </div>
+        
+        <div class="section3">
+
+            <div class="container">
+                <div class="text-container">
+                    <p class="quote"> "It all started with a rock and a torch naked on the beach"</p>
+                    <p class="author">-A Rust experience</p>
+                </div>
+                
+            </div>
+
         </div>
 
-    </div>
+        <div class="section4">
 
-    <div class="section5">
-
-        <div class="container">
-            <div class="footer-section">
-                <div class="footer-text"> Copyright &copy; Website 2023</div>
+            <div class="container">
+                <div class="cta-container">
+                    <div class="call-to-action">
+                        <h2 class="cta-header">Explore, Build, Survive!</h2>
+                        <p class="cta-text">
+                            It's time for you to join the horde of nakeds lurking around the radioactive island, it's always a new adventure.</p>
+                    </div>
+                    <button class="button-cta"><a href="https://store.steampowered.com/agecheck/app/252490/" target="_blank" rel="noopener noreferrer" >Join</a></button>
+                </div>
             </div>
+
         </div>
 
-    </div>
+        <div class="section5">
+
+            <div class="container">
+                <div class="footer-section">
+                    <div class="footer-text"> Copyright &copy; Facepunch Studios 2023</div>
+                    <div class="footer-text"> by a fan with love</div>
+                </div>
+            </div>
+
+        </div>
+
+  
 
 </body>
 </html>
